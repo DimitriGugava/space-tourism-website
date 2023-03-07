@@ -1,35 +1,64 @@
 import "./Destinations.css";
-import moon from "../assets/moon.svg";
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import data from "../data.json";
+
+type Destination = {
+  name: string;
+  images: { png: string; webp: string };
+  description: string;
+  distance: string;
+  travel: string;
+};
+
 const Destinations = () => {
+  const [selectedPlanet, setSelectedPlanet] = useState<Destination | null>(
+    data.destinations.find((destination) => destination.name === "Moon") || null
+  );
+
+  const handlePlanetClick = (planetName: string) => {
+    const selectedDestination = data.destinations.find(
+      (destination) =>
+        destination.name.toLowerCase() === planetName.toLowerCase()
+    );
+    setSelectedPlanet(selectedDestination || null);
+  };
+
   return (
     <div className="destinationCont">
       <div className="destHeaderText">
         01 <span className="destPickyourDestText">Pick your destination</span>
       </div>
-      <img className="planet" src={moon} />
+
+      {selectedPlanet && (
+        <img className="planet" src={selectedPlanet.images.png} />
+      )}
+
       <div className="planetOption">
-        <a className="planetNames">MOON</a>
-        <a className="planetNames">MARS</a>
-        <a className="planetNames">EUROPA</a>
-        <a className="planetNames">TITAN</a>
+        {data.destinations.map((destination) => (
+          <a
+            className="planetNames"
+            key={destination.name}
+            onClick={() => handlePlanetClick(destination.name)}
+          >
+            {destination.name.toUpperCase()}
+          </a>
+        ))}
       </div>
-      <a className="planetTitleText">MOON</a>
-      <a className="planetDescriptionText">
-        See our planet as you’ve never seen it before. A perfect relaxing trip
-        away to help regain perspective and come back refreshed. While you’re
-        there, take in some history by visiting the Luna 2 and Apollo 11 landing
-        sites.
-      </a>
-      <div className="destLine"></div>
-      <div className="averageDistanceBox">
-        <a className="averageDistText">AVG. DISTANCE</a>
-        <a className="distanceNumber">384,400 km</a>
-      </div>
-      <div className="averageDistanceBox">
-        <a className="averageDistText">Est. travel time</a>
-        <a className="distanceNumber">3 days</a>
-      </div>
+      {selectedPlanet && (
+        <div className="planetInfo">
+          <a className="planetTitleText">{selectedPlanet.name}</a>
+          <a className="planetDescriptionText">{selectedPlanet.description}</a>
+          <div className="destLine"></div>
+          <div className="averageDistanceBox">
+            <a className="averageDistText">AVG. DISTANCE</a>
+            <a className="distanceNumber">{selectedPlanet.distance}</a>
+          </div>
+          <div className="averageDistanceBox">
+            <a className="averageDistText">Est. travel time</a>
+            <a className="distanceNumber">{selectedPlanet.travel}</a>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

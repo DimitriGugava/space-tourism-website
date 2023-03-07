@@ -3,6 +3,9 @@
   flex-direction: column;
   width: auto;
   height: auto;
+  margin: 0px auto;
+  background-image: url(../assets/destination/background-destination-mobile.jpg);
+  background-position: cover;
 }
 .destHeaderText {
   height: 19px;
@@ -27,6 +30,11 @@
   text-transform: uppercase;
 
   color: #ffffff;
+}
+
+.planetInfo {
+  display: flex;
+  flex-direction: column;
 }
 .planet {
   height: 170px;
