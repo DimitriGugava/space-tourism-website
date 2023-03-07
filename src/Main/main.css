@@ -100,3 +100,49 @@
   cursor: pointer;
   font-size: 21px;
 }
+
+.menusection {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 135px;
+  margin-top: -5px;
+  height: 667px;
+  width: 254px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+}
+.mainClose {
+  height: 19px;
+  width: 19px;
+  margin: 60px 200px;
+}
+.mainClose:hover {
+  cursor: pointer;
+}
+.mainMenusectiontypes {
+  height: 19px;
+  width: 70px;
+  margin: 10px 32px;
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 2.700000047683716px;
+  text-align: left;
+  color: #ffffff;
+}
+.mainMenuSectionText {
+  margin-left: 5px;
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 2.700000047683716px;
+  text-align: left;
+  color: #ffffff;
+}
+.mainMenuSectionText:hover {
+  cursor: pointer;
+  color: #d0d6f9;
+}
