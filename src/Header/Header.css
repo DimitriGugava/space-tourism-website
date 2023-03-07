@@ -1,0 +1,67 @@
+.mainHeaderCont {
+  width: 375px;
+  height: 90px;
+  margin-top: 0px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 200px;
+}
+.mainlogo {
+  height: 40px;
+  width: 40px;
+  margin-top: 24px;
+}
+.mainmenuclick {
+  height: 21px;
+  width: 24px;
+  margin-top: 33px;
+}
+.menusection {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: -30px;
+  height: 667px;
+  width: 275px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+  z-index: 1;
+}
+.mainClose {
+  height: 19px;
+  width: 19px;
+  margin: 60px 215px;
+}
+
+.mainClose:hover {
+  cursor: pointer;
+}
+.mainMenusectiontypes {
+  height: 19px;
+  width: 70px;
+  margin: 10px 32px;
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 2.700000047683716px;
+  text-align: left;
+  color: #ffffff;
+}
+.mainMenuSectionText {
+  margin-left: 5px;
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 2.700000047683716px;
+  text-align: left;
+  color: #ffffff;
+}
+.mainMenuSectionText:hover {
+  cursor: pointer;
+  color: #d0d6f9;
+}
