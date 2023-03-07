@@ -43,40 +43,40 @@
   ],
   "crew": [
     {
-      "name": "Douglas Hurley",
+      "name": "Dimitri Gugava",
       "images": {
-        "png": "./assets/crew/image-douglas-hurley.png",
+        "png": "./assets/crew/image-dimitri-gugava.png",
         "webp": "./assets/crew/image-douglas-hurley.webp"
       },
-      "role": "Commander",
-      "bio": "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."
+      "role": "Zero-Gravity Yoga Instructor",
+      "bio": "Dimitri Gugava has to admit that he's not exactly sure how he ended up on the team and even worse, he has no idea how to fly a spacecraft."
     },
     {
-      "name": "Mark Shuttleworth",
+      "name": "Deme Gugavinho",
       "images": {
-        "png": "./assets/crew/image-mark-shuttleworth.png",
+        "png": "./assets/crew/image-dimitri-gugavinho.png",
         "webp": "./assets/crew/image-mark-shuttleworth.webp"
       },
-      "role": "Mission Specialist",
-      "bio": "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."
+      "role": "Starship Karaoke Specialist",
+      "bio": "Deme Gugavinho is the interstellar karaoke maestro. having serenaded aliens and made black holes groove."
     },
     {
-      "name": "Victor Glover",
+      "name": "Demetrious Gugavos",
       "images": {
-        "png": "./assets/crew/image-victor-glover.png",
+        "png": "./assets/crew/image-demetrious-gugavos.png",
         "webp": "./assets/crew/image-victor-glover.webp"
       },
-      "role": "Pilot",
-      "bio": "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."
+      "role": "Cosmic Pilot - With No License",
+      "bio": "Demetrious Gugavos the skilled space pilot who can navigate through asteroid fields like a pro - although he still can't remember where he put his space license!"
     },
     {
-      "name": "Anousheh Ansari",
+      "name": "Dim Gugjonsen",
       "images": {
-        "png": "./assets/crew/image-anousheh-ansari.png",
+        "png": "./assets/crew/image-dim-gugjonsen.png",
         "webp": "./assets/crew/image-anousheh-ansari.webp"
       },
-      "role": "Flight Engineer",
-      "bio": "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."
+      "role": "IKEA Space Assembly Specialist",
+      "bio": "As the Astronomical Handyman, Dim Gugjonsen has fixed more space toilets than he can count and is always ready to tackle any cosmic repair job. Just don't ask him to assemble any space furniture - his last attempt left him floating in a pile of bolts and screws!"
     }
   ],
   "technology": [

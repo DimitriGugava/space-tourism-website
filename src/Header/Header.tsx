@@ -38,7 +38,7 @@ const Header = () => {
           <div className="mainMenusectiontypes">
             02
             <Link
-              to="/main"
+              to="/crew"
               className="mainMenuSectionText"
               onClick={handleMenu}
             >
