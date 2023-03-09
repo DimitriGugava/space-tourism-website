@@ -130,3 +130,155 @@
   text-align: center;
   color: #ffffff;
 }
+@media only screen and (min-width: 768px) {
+  .destinationCont {
+    height: 1024px;
+    width: 768px;
+    background-image: url(../assets/destination/background-destination-tablet.jpg);
+  }
+  .destHeaderText {
+    height: 24px;
+    width: 272px;
+    text-align: left;
+    margin: 20px 20px;
+    font-size: 20px;
+  }
+  .destPickyourDestText {
+    font-size: 20px;
+  }
+  .planet {
+    height: 300px;
+    width: 300px;
+  }
+  .planetOption {
+    height: 34px;
+    width: 300px !important;
+
+    gap: 50px !important;
+  }
+  .planetNames {
+    display: inline-block;
+    height: 19px;
+    width: 37px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2.700000047683716px;
+    text-align: left;
+  }
+  .planetTitleText {
+    height: 92px;
+    width: 266px;
+    font-family: "Bellefair";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 92px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .planetDescriptionText {
+    height: 84px;
+    width: 573px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .destLine {
+    height: 1px;
+    width: 573px;
+  }
+  .destTabletDesktKMDays {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 573px;
+    margin: 0px auto;
+    height: 90px;
+    width: 573px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .destinationCont {
+    height: 900px;
+    width: 1440px;
+    background-image: url(../assets/destination/background-destination-desktop.jpg);
+    margin-top: -100px;
+  }
+  .destHeaderText {
+    height: 24px;
+    width: 402px;
+    text-align: left;
+    margin: 200px 200px;
+    font-size: 28px;
+  }
+  .destPickyourDestText {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 4.724999904632568px;
+    text-align: left;
+  }
+  .planet {
+    height: 445px;
+    width: 445px;
+    margin-left: 150px;
+    margin-top: -150px;
+  }
+  .planetOption {
+    height: 34px;
+    width: 285.5px !important;
+    gap: 50px !important;
+    margin-top: -490px !important;
+    margin-left: 800px !important;
+  }
+  .planetNames {
+    display: inline-block;
+    height: 19px;
+    width: 37px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2.700000047683716px;
+    text-align: left;
+  }
+  .planetTitleText {
+    height: 92px;
+    width: 266px;
+    font-family: "Bellefair";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 92px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: 820px !important;
+  }
+  .planetDescriptionText {
+    height: 84px;
+    width: 573px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: 680px !important;
+  }
+  .destLine {
+    height: 1px;
+    width: 573px;
+    margin-left: 680px !important;
+  }
+  .destTabletDesktKMDays {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 573px;
+
+    height: 90px;
+    width: 573px;
+    margin-left: 700px !important;
+  }
+}

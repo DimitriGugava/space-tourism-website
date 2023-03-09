@@ -126,3 +126,138 @@
   text-align: center;
   color: #d0d6f9;
 }
+@media only screen and (min-width: 768px) {
+  .crewCont {
+    background-image: url(../assets/crew/background-crew-tablet.jpg);
+    background-repeat: no-repeat;
+  }
+  .crewHeaderText {
+    height: 24px;
+    width: 272px;
+    margin: 0px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    text-align: left;
+  }
+  .crewPickyourText {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    text-align: left;
+  }
+  .crewDots {
+    margin-top: -50px;
+  }
+  .crew {
+    height: 372px;
+    width: 256.3721008300781px;
+    border-bottom-right-radius: 110px;
+    border-bottom-left-radius: 170px;
+    margin-top: -30px;
+  }
+  .crewInfo {
+    height: 202px;
+    width: 458px;
+    margin-top: -50px;
+  }
+  .crewFirstLine {
+    display: none;
+  }
+  .crewPosition {
+    width: 300px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .crewCont {
+    background-image: url(../assets/crew/background-crew-desktop.jpg);
+    height: 900px;
+    width: auto !important;
+    margin-top: -105px;
+    margin-left: 50px;
+  }
+
+  .crewHeaderText {
+    position: absolute;
+    height: 24px;
+    width: 272px;
+    margin-top: 200px !important;
+    margin-left: 166px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    text-align: left;
+  }
+  .crewPickyourText {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    text-align: left;
+  }
+  .crewOption {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 160px;
+  }
+  .crewDots {
+    height: 15px;
+    width: 15px;
+  }
+  .crew {
+    height: 712px;
+    width: 568.071533203125px;
+    left: 734.928466796875px;
+
+    border-bottom-right-radius: 110px;
+    border-bottom-left-radius: 220px;
+    margin-top: 110px;
+    margin-left: 800px;
+  }
+  .crewInfo {
+    height: 202px;
+    width: 458px;
+    margin-top: -600px;
+    margin-left: 160px;
+  }
+  .crewFirstLine {
+    display: none;
+  }
+  .crewPosition {
+    width: 300px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 0px;
+  }
+  .crewFullName {
+    width: 500px;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .crewDescriptionText {
+    height: 128px;
+    width: 444px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 30px !important;
+  }
+}

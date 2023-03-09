@@ -4,3 +4,13 @@
 
   margin: 0px auto !important;
 }
+@media only screen and (min-width: 768px) {
+  .App {
+    width: 768px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .App {
+    width: auto;
+  }
+}

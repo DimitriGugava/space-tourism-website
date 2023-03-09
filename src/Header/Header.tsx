@@ -16,6 +16,20 @@ const Header = () => {
     <div className="mainHeaderCont">
       <img className="mainlogo" src={logo} />
       <img className="mainmenuclick" src={menuclick} onClick={handleMenu} />
+      <div className="tabletDesktopMenu">
+        <Link to="/" className="mainMenuSectionText">
+          HOME
+        </Link>
+        <Link to="/destinations" className="mainMenuSectionText">
+          DESTINATION
+        </Link>
+        <Link to="/crew" className="mainMenuSectionText">
+          CREW
+        </Link>
+        <Link to="/technology" className="mainMenuSectionText">
+          TECHNOLOGY
+        </Link>
+      </div>
       {menu && (
         <div className="menusection">
           <img className="mainClose" src={close} onClick={handleMenu} />

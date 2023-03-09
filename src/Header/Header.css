@@ -2,11 +2,11 @@
   width: 375px;
   height: 90px;
   margin-top: 0px;
-  margin: 0px auto;
+  margin-left: 24px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  gap: 200px;
+
+  gap: 260px;
 }
 .mainlogo {
   height: 40px;
@@ -60,8 +60,82 @@
   letter-spacing: 2.700000047683716px;
   text-align: left;
   color: #ffffff;
+  text-decoration: none;
 }
 .mainMenuSectionText:hover {
   cursor: pointer;
   color: #d0d6f9;
+}
+.tabletDesktopMenu {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .mainHeaderCont {
+    display: flex;
+    width: 768px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+
+    gap: 260px;
+  }
+  .mainmenuclick {
+    display: none;
+  }
+  .tabletDesktopMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 96px;
+    width: 550px;
+    gap: 37px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+    background: #ffffff0a;
+  }
+  .mainMenuSectionText {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 0px;
+    font-family: "Barlow Condensed";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 2.362499952316284px;
+    text-align: left;
+  }
+  .mainMenuSectionText:hover {
+    cursor: pointer;
+    color: #d0d6f9;
+    text-underline-offset: 48px;
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .mainHeaderCont {
+    height: 96px;
+    width: 1400px;
+    gap: 600px;
+    justify-content: flex-start;
+    margin-left: 119px;
+    z-index: 10;
+    position: relative;
+  }
+  .mainlogo {
+    height: 48px;
+    width: 48.000064849853516px;
+  }
+  .tabletDesktopMenu {
+    height: 96px;
+    width: 950px !important;
+
+    background: #ffffff0a;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+  }
 }

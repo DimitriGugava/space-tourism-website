@@ -49,13 +49,15 @@ const Destinations = () => {
           <a className="planetTitleText">{selectedPlanet.name}</a>
           <a className="planetDescriptionText">{selectedPlanet.description}</a>
           <div className="destLine"></div>
-          <div className="averageDistanceBox">
-            <a className="averageDistText">AVG. DISTANCE</a>
-            <a className="distanceNumber">{selectedPlanet.distance}</a>
-          </div>
-          <div className="averageDistanceBox">
-            <a className="averageDistText">Est. travel time</a>
-            <a className="distanceNumber">{selectedPlanet.travel}</a>
+          <div className="destTabletDesktKMDays">
+            <div className="averageDistanceBox">
+              <a className="averageDistText">AVG. DISTANCE</a>
+              <a className="distanceNumber">{selectedPlanet.distance}</a>
+            </div>
+            <div className="averageDistanceBox">
+              <a className="averageDistText">Est. travel time</a>
+              <a className="distanceNumber">{selectedPlanet.travel}</a>
+            </div>
           </div>
         </div>
       )}

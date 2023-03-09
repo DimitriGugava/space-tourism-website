@@ -34,7 +34,7 @@
 }
 .mainContentHeaderTexts {
   height: 100px;
-  width: 340px !important;
+  width: 340px;
   font-family: "Bellefair";
   font-size: 80px;
   font-weight: 400;
@@ -70,6 +70,7 @@
   text-align: center;
   color: #0b0d17;
   border: none;
+  text-decoration: none;
 }
 .mainExplorButton:hover {
   cursor: pointer;
@@ -80,4 +81,130 @@
   color: #ffffff;
   cursor: pointer;
   font-size: 21px;
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    height: 1024px;
+    width: 768px;
+    background-image: url(../assets/home/background-home-tablet.jpg);
+  }
+  .mainContentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 334px;
+    width: 490px;
+    margin: 0px auto;
+  }
+  .mainContentTextone {
+    height: 24px;
+    width: 280px;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    text-align: center;
+  }
+  .mainContentHeaderTexts {
+    height: 150px;
+    width: 490px;
+
+    font-family: "Bellefair";
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 150px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .mainContentLongText {
+    height: 112px;
+    width: 444px;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .mainExplorButton {
+    height: 242px;
+    width: 242px;
+    border-radius: 200px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Bellefair";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 2px;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main {
+    height: 900px;
+    width: auto !important;
+    margin: 0px 0px !important;
+    background-image: url(../assets/home/background-home-desktop.jpg);
+
+    margin-top: -105px !important;
+  }
+  .mainContentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: left !important;
+    height: 382px;
+    width: 450px;
+    margin: 250px 100px;
+  }
+  .mainContentTextone {
+    height: 34px;
+    width: 399px;
+
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 4.724999904632568px;
+    text-align: left;
+  }
+  .mainContentHeaderTexts {
+    height: 172px;
+    width: 445px;
+
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 172px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .mainContentLongText {
+    height: 128px;
+    width: 444px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .mainExplorButton {
+    position: absolute;
+    height: 274px;
+    width: 274px;
+
+    border-radius: 200px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Bellefair";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: -300px 900px;
+  }
 }

@@ -4,7 +4,7 @@
   width: auto;
   height: 100%;
   margin: 0px auto;
-  background-image: url(../assets/crew/background-crew-mobile.jpg);
+  background-image: url(../assets/technology/background-technology-desktop.jpg);
   background-position: cover;
 }
 .techHeaderText {
@@ -133,4 +133,176 @@
   letter-spacing: 0px;
   text-align: center;
   color: #d0d6f9;
+}
+@media only screen and (min-width: 768px) {
+  .techCont {
+    background-image: url(../assets/technology/background-technology-tablet.jpg);
+    background-position: center;
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .techHeaderText {
+    height: 24px;
+    width: 272px;
+    margin: 0px 20px;
+    font-family: "Barlow Condensed";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    text-align: left;
+    color: #7a7979;
+    margin-top: 0px !important;
+  }
+  .techPickyourText {
+    font-family: "Barlow Condensed";
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .tech {
+    height: 380px;
+    width: 768px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-size: 50% 100%;
+    margin-top: 20px;
+  }
+  .techInfo {
+    height: 202px;
+    width: 458px;
+    margin-top: -50px;
+  }
+  .techFirstLine {
+    display: none;
+  }
+  .techOption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 26px;
+    height: 40px;
+    width: 152px;
+    margin: 35px auto;
+  }
+  .techDots {
+    margin-top: -50px;
+  }
+  .techDescriptionText {
+    height: 100px;
+    width: 327px;
+    margin: 20px auto;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #d0d6f9;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .techCont {
+    background-image: url(../assets/technology/background-technology-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: auto;
+    margin-top: -100px;
+    overflow: hidden;
+  }
+  .techHeaderText {
+    height: 24px;
+    width: 400px;
+    margin-top: 140px !important;
+    margin-left: 160px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 4.724999904632568px;
+    text-align: left;
+
+    color: #7a7979;
+  }
+  .techPickyourText {
+    font-family: "Barlow Condensed";
+    margin-left: 5px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .tech {
+    height: 527px;
+    width: 515px;
+    margin-top: 0px;
+    margin-left: 1020px;
+  }
+  .techInfo {
+    height: 202px;
+    width: 458px;
+    margin-top: -50px;
+  }
+  .techFirstLine {
+    display: none;
+  }
+  .techOption {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0px;
+    height: 350px;
+    width: 100px;
+    margin-left: 160px;
+    margin-top: -500px;
+  }
+  .techDots {
+    height: 50px;
+    width: 50px !important;
+    border-radius: 100px !important;
+    margin-top: -50px;
+  }
+  .techInfo {
+    margin-top: -350px;
+    margin-left: 260px;
+  }
+  .techTerminology {
+    width: 200px;
+    text-align: left;
+    margin-left: -120px;
+    font-size: 20px;
+  }
+  .techName {
+    text-align: left;
+    margin-left: 0px;
+
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .techDescriptionText {
+    height: 100px;
+    width: 507px;
+    font-family: "Barlow";
+    margin-left: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
 }

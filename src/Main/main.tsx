@@ -3,6 +3,7 @@ import logo from "../assets/logo.svg";
 import menuclick from "../assets/menuclick.svg";
 import close from "../assets/close.svg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const Main = () => {
   return (
     <div className="main">
@@ -16,7 +17,9 @@ const Main = () => {
           experience!
         </a>
       </div>
-      <button className="mainExplorButton">EXPLORE</button>
+      <Link to="/destinations" className="mainExplorButton">
+        EXPLORE
+      </Link>
     </div>
   );
 };
