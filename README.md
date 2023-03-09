@@ -4,6 +4,7 @@
 
 # Live Link: https://space-tourism-website-jade.vercel.app/
 # my linkedin: https://www.linkedin.com/in/dimitri-gugava/
+![React-App](https://user-images.githubusercontent.com/107649216/224039533-fe16e017-0ca6-4541-b014-c5c4352dc60a.png)
 
 
 🌟 Built with a responsive and user-friendly design using React and TypeScript. React Router is used for seamless navigation.
